@@ -1,0 +1,23 @@
+.offers-slider {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.offer-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .offer-image {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .offer-image {
+    height: 140px;
+    border-radius: 10px;
+  }
+}

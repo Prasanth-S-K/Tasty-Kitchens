@@ -1,0 +1,88 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.notfound-container img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.notfound-container h1 {
+  font-size: 24px;
+  color: #334155;
+}
+
+.not-found-para {
+  line-height: 0;
+  color: grey;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 5px;
+}
+
+.home-button {
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f7931e;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #f97316;
+}
+/* Tablet (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .notfound-container img {
+    width: 240px;
+  }
+
+  .notfound-container h1 {
+    font-size: 22px;
+  }
+
+  .not-found-para {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .home-button {
+    width: 180px;
+  }
+}
+
+/* Mobile (≤ 480px) */
+@media screen and (max-width: 480px) {
+  .notfound-container {
+    padding: 20px;
+  }
+
+  .notfound-container img {
+    width: 200px;
+  }
+
+  .notfound-container h1 {
+    font-size: 20px;
+  }
+
+  .not-found-para {
+    font-size: 14px;
+  }
+
+  .home-button {
+    width: 160px;
+    padding: 9px;
+  }
+}
